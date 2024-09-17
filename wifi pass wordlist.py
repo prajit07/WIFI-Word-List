@@ -2,7 +2,7 @@ import random
 import string
 import time
 start=time.time()
-print(start)
+print("Current time is:",start)
 passs=""
 while True:
     def generate_password(length=8):
@@ -24,6 +24,7 @@ f.close()
 
 
 end=time.time()
-print(end)
+print("Currnet time is:",end)
 elasped=(end-start)/60
 print("The Total Time Elasped is:",elasped,minutes)
+
